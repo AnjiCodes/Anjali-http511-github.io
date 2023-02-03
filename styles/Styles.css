@@ -1,0 +1,149 @@
+body { 
+	padding: 0px; 
+	margin:  0px; 
+	font-family: Arial, Helvetica, sans-serif; 
+	background: #fff; 
+	color: #000; 
+}
+
+a:link{
+	color:rgb(0, 0, 0)
+}
+
+a:visited{
+	color:rgb(0, 0, 0)
+}
+
+a:hover{
+	background-color:rgb(8, 52, 66);
+	color:rgb(255, 255, 255)
+}
+
+a:active{
+	color:rgb(122, 59, 122)
+}
+
+.logo{
+	font-size:36px;
+	color:#000;
+}
+
+#navlist li
+	{
+	display: inline;
+	list-style-type:circle;
+	padding-right: 20px;
+	border-right: 1px solid #000;
+	line-height: 1.1em;
+	margin: 0 .5em 0 -.5em;
+	padding: 0 .5em 0 .5em;
+	}
+
+
+.box {
+	margin:10px;
+	padding:10px;
+	background-color:rgb(30, 103, 132);
+	clear:both;
+	border-radius: 15px 15px 0px 0px;
+	}
+
+.box span{
+	font-size:50px;
+}
+
+.box img{
+	width: 3.5%;
+	padding-right: 10px;
+	}
+
+.nav {
+	margin:10px;
+	padding:10px;
+	background-color:rgb(118, 167, 186);
+	clear: both;
+	border-radius: 15px 15px 0px 0px;
+	
+	}
+.left {
+	width:20%;
+	margin:10px;
+	padding:10px;
+	background-color:rgb(255, 255, 255);
+	border-width:0px;
+	border-style:solid;
+	border-radius: 15px;
+	float:left;
+	clear:both;
+}
+
+.left h3{
+	float:center;
+	width:20%;
+	clear:both;
+	color:rgb(0, 0, 0);
+}
+	
+.left img{
+	float:left;
+	width:80%;
+	clear:both;
+}
+	
+	
+.centre {
+	width:70%;
+	margin:10px;
+	padding:10px;
+	background-color:rgb(255, 255, 255);
+	border-bottom: 3px solid rgb(30, 103, 132);
+	float:left;
+	}
+
+
+.right {
+	width:70%;
+	margin:10px;
+	padding:10px;
+	background-color:rgba(118, 167, 186, 0.365);
+	border-width:0px;
+	border-radius: 15px;
+	border-style:solid;
+	float:left;
+	
+}
+
+.right p{
+	letter-spacing: 1.2px;
+	line-height: 20px;
+}
+
+.right p a{
+	color:rgb(160, 31, 31)
+}
+
+.right p a:hover{
+	background-color:rgb(76, 91, 95);
+	color:rgb(255, 255, 255)
+}
+
+.lower_nav {
+	margin:10px;
+	padding:10px;
+	background-color: rgb(118, 167, 186);
+	border-width:0px;
+	border-radius: 0px 0px 15px 15px ;
+	border-style:solid;
+	clear:both;
+	
+	}
+.legal {
+	margin:10px;
+	padding:10px;
+	background-color:rgb(30, 103, 132);
+	border-width:0px;
+	border-radius: 0px 0px 15px 15px ;
+	border-style:solid;
+	float:none;
+	clear:both;
+	}
